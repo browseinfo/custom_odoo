@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+	<data>
+		<template id="footer_link_remove" inherit_id="web.login_layout" >
+		    <xpath expr="//div[@class='oe_single_form_footer']" position="replace">
+		    </xpath>
+		</template>
+
+		<template id="footer_link_remove_odoo" inherit_id="web.menu_secondary" >
+		    <xpath expr="//div[@class='oe_footer']" position="replace">
+		    </xpath>
+		</template>
+		
+	</data>
+</openerp>
